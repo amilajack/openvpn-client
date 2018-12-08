@@ -5,14 +5,13 @@
   "repository": "git@github.com:amilajack/openvpn-client.git",
   "author": "Amila Welihinda <amilajack@gmail.com>",
   "license": "MIT",
-  "dependencies": {
-    "bootstrap": "^4.1.3",
-    "jquery": "^3.3.1",
-    "mousetrap": "^1.6.2"
-  },
+  "dependencies": {},
   "devDependencies": {
     "eslint": "^5.10.0",
     "eslint-config-bliss": "^3.1.1"
+  },
+  "scripts": {
+    "lint": "eslint ."
   },
   "eslintConfig": {
     "extends": "bliss"
